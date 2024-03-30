@@ -11,9 +11,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "./components/NavBar";
 import { ChakraProvider } from "@chakra-ui/react";
 import Kader from "./pages/Kader";
+import DashboardA from "./pages/admin/DashboardA";
+import Profil from "./pages/admin/Profil";
+import UserProfileEdit from "./pages/admin/UserProfileEdit";
+
 // import { lazy } from "react";
 // const Home = lazy(() => import("./pages/Home.jsx"));
 // const About = lazy(() => import("./pages/About.jsx"));
+
 
 function App() {
   return (
@@ -26,6 +31,9 @@ function App() {
           <Route path="/NotFound" element={<NotFound />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/kader" element={<Kader />} />
+          <Route path="/DashboardA" element={<DashboardA />} />
+          <Route path="/Profil" element={<Profil />} />
+          <Route path="/UserProfileEdit" element={<UserProfileEdit />} />
         </Routes>
       </ChakraProvider>
     </Router>
