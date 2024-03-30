@@ -29,9 +29,9 @@ export default function DashboardA() {
         <Text mt="10px">dashborad</Text> 
         <Flex mt="30px"  p="10px" minChildWith="200px" >
           <HStack spacing="60px">
-            <Button colorScheme='pink'   as="a" href="#" >Liste des produits</Button>
-            <Button colorScheme='pink' leftIcon={<AddIcon/>} as="a" href="#">Ajouter un client</Button>
-            <Button colorScheme='pink' leftIcon={<AddIcon/>} as="a" href="#">Ajouter un produit</Button>
+            <Button colorScheme='pink'   as="a" href="#" pb="5px">Liste des produits</Button>
+            <Button colorScheme='pink' leftIcon={<AddIcon/>} as="a" href="#" pb="5px">Ajouter un client</Button>
+            <Button colorScheme='pink' leftIcon={<AddIcon/>} as="a" href="#" pb="5px">Ajouter un produit</Button>
           </HStack>
         </Flex>
         <Box border="1px solid #CED4DA" borderRadius="5px" p="10px" my="40px">

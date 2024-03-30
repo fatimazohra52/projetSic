@@ -25,13 +25,13 @@ export default function SideBarA() {
             </NavLink>
         </ListItem>
         <ListItem>
-            <NavLink to="/DashboardA">
+            <NavLink to="/Profil">
                 <ListIcon as={AtSignIcon} color="white"/>
                 Profile
             </NavLink>
         </ListItem>
         <ListItem paddingTop={{lg:"60vh"}}>
-            <NavLink to="/DashboardA">
+            <NavLink to="/">
                 <ListIcon as={ExternalLinkIcon} color="white"/>
                 LogOut
             </NavLink>
